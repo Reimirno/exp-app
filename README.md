@@ -16,3 +16,7 @@ In Auguest 2022, I integrated Express.JS so that this app is able to fire up on 
 Clone this repo and run `npm install & npm link`.
 
 Start your first exp with `exp add`!
+
+## REST API
+
+After server start, navigate to API tab to see a list of APIs.
