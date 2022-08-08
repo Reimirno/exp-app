@@ -1,0 +1,17 @@
+{{> page/nav}}
+{{> page/title}}
+<p>Type in full title to search for notes.</p>
+<div class="container">
+    <div class="row">
+<form>
+    <input id="text_field" type="text" name="note_title" placeholder="Enter a note title to search!">
+    <input id="search_btn" type="submit" value="Search">
+</form>
+    </div>
+    <div class="row">
+<p id="result"></p>
+    </div>
+</div>
+
+{{> page/footer}}
+<script src="./js/notes.js"></script>

@@ -1,0 +1,26 @@
+{{> page/nav}}
+{{> page/title}}
+<table>
+    <thead>
+        <tr>
+            <th>Operation</th>
+            <th>Endpoint</th>
+            <th>Description</th>
+            <th>Parameters</th>
+            <th>Responses</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each operations}}
+        <tr>
+            <td>{{this.operation}}</td>
+            <td>{{this.endpoint}}</td>
+            <td>{{this.description}}</td>
+            <td>{{this.parameters}}</td>
+            <td>{{this.responses}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+
+{{> page/footer}}

@@ -1,0 +1,12 @@
+#text_field {
+  border: 1px solid #cccccc;
+  padding: 8px;
+}
+
+#search_btn {
+  cursor: pointer;
+  border: 1px solid #888888;
+  background: #888888;
+  color: white;
+  padding: 8px;
+}

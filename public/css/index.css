@@ -1,0 +1,26 @@
+.tile {
+  display: flex;
+  width: 90%;
+  height: 200px;
+  border: 1px solid black;
+  margin: 10px auto 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.half {
+  display: flex;
+  width: 40%;
+  height: 200px;
+  border: 1px solid black;
+  margin: 10px auto 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: #888888;
+  text-decoration: none;
+  font-size: 2em;
+  font-style: italic;
+}
